@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('./fonts/Gilroy-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+body {
+    width: 1440px;
+    margin: 0px auto;
+    font-family: 'Gilroy', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 30px ;
+}
+
+.container img{
+    border-radius: 0px 30px 30px 0px;
+}
+
+.login-bar {
+    width: 40%;
+    height: 1024px;
+    flex-shrink: 0;
+    background-color: rgb(15, 32, 98);
+}
+
+
+.login-bar .email {
+    padding-top: 95px;
+    padding-left: 0;
+}
+
+.logo {
+    width: 419px;
+    height: 114px;
+    padding-top: 88px;
+    padding-left: 89px;
+}
+
+.heading {
+    text-align: center;
+    width: 402px;
+    height: 20px;
+    padding-top: 20px;
+    padding-left: 93px;
+
+}
+
+h2 {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    font-size: 40px;
+}
+
+
+
+.img {
+    right: 0px;
+    width: 60%;
+    /* width: 859px;
+    height: 1024px;
+    left: 581px; */
+}
+
+.login-email {
+    width: 450px;
+    height: 48.84px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+}
+
+
+
+.email-bar {
+    font-family: 'Gilroy', sans-serif;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: 0.3px solid transparent;
+    background: #0F2D6B;
+    border-radius: 10px;
+
+}
+
+
+
+.password-bar {
+    font-family: 'Gilroy', sans-serif;
+    margin-top: 10px;
+    margin-left: 90px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    border: 0.3px solid transparent;
+    background: #0F2D6B;
+    border-radius: 10px;
+
+}
+
+h3 {
+    text-align: right;
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 108%;
+    letter-spacing: 0%;
+    margin-top: 3px;
+    margin-right: 80px;
+    margin-top: 10px;
+    color: #dfe3ec;
+
+}
+
+.btn-sup {
+    width: 400px;
+    height: 48.84px;
+    margin-top: 52px;
+    margin-left: 90px;
+    border-radius: 10px;
+    border-width: 0.3px;
+    background: #1A4FBA;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0px;
+
+}
+
+.or {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 10px;
+    width: 405px;
+    height: 0px;
+    margin-top: 50px;
+    margin-left: 90px;
+    border-width: 1px;
+    color: #345080;
+}
+
+.or::before,
+.or::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #345080;
+}
+
+
+
+.social {
+    width: 400px;
+    height: 48.84px;
+    margin-top: 8px;
+    margin-left: 90px;
+    border-radius: 10px;
+    background: #1A4FBA;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.account {
+    text-align: center;
+    font-size: 20px;
+    color: #9B9B9B;
+    margin-top: 10px;
+    margin-left: 18px;
+    margin-right: 18PX;
+}
+
+.create-account {
+    color: #168BEA;
+    text-decoration: none;
+}
+
+
+
+
